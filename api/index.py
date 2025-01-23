@@ -3,7 +3,7 @@ from flask import Flask, request, jsonify
 app = Flask(__name__)
 
 # Your custom verification token
-VERIFY_TOKEN = "your_verify_token"
+VERIFY_TOKEN = "explicit_og"
 
 @app.route("/webhook", methods=["GET", "POST"])
 def webhook():
